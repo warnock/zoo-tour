@@ -33,14 +33,24 @@ $(document).ready(function(){
 
 $("#formOne").submit(function(){
 
+  numberParty = parseInt($("input#numberParty").val());
+  var dollarAmount = numberParty * 12;
+
+  function discount(){
+    dollarAmount = dollarAmount/1.2;
+  }
     console.log();
     name = $("input#name").val();
-    numberParty = $("input#numberParty").val();
-    disabled = $("input#disabled").val();
+    disabled = parseInt($("input:radio[name=disabled]:checked").val());
 
+    if (disabled === 1){
+      discount();
+      // discount();
+      }
 
   $(".confirmName").text(name);
   $(".confirmNumber").text(numberParty);
+  $(".dollarAmount").text(dollarAmount);
   $(".confirm").show();
   event.preventDefault();
 
