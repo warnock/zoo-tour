@@ -1,0 +1,36 @@
+body {
+  background-color: beige;
+}
+.panel-body {
+background-color: white;
+font-weight: bold;
+border-radius: 10px;
+border-width: thick;
+border-color: black;
+}
+.panel-default{
+background-color: white;
+font-weight: bold;
+border-radius: 10px;
+border-width: thick;
+border-color: black;
+}
+
+.ul1, .ul2, .ul3 {
+  display: none;
+}
+
+/*.omnivore{
+  background-color: blue;
+}
+.vegetarian {
+  background-color: green;
+}
+.carnivore {
+  background-color: red;
+  color: pink
+  }
+
+.carnivore, .vegetarian, .omnivore {
+  display: none;
+  }*/
