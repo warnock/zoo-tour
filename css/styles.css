@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: white;
 }
 .panel-body {
 background-color: white;
@@ -18,19 +18,53 @@ border-color: black;
 
 .ul1, .ul2, .ul3 {
   display: none;
+  background-color: #DFE7BB;
+  border-radius: 10px;
 }
 
-/*.omnivore{
-  background-color: blue;
-}
-.vegetarian {
-  background-color: green;
-}
-.carnivore {
-  background-color: red;
-  color: pink
-  }
-
-.carnivore, .vegetarian, .omnivore {
+.confirm {
   display: none;
-  }*/
+}
+
+.jumbotron{
+  background-image: url("https://cache-graphicslib.viator.com/graphicslib/thumbs674x446/2138/SITours/australia-zoo-by-croc-express-coach-in-brisbane-187935.jpg");
+  background-size: 100%;
+  background-position: center center;
+
+}
+.jumbotron h1{
+  font-size: 100px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #E9FC46;
+  text-align: right;
+}
+.jumbotron h2{
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #E9FC46;
+  text-align: right;
+}
+.welcome{
+  background-color: #DFE7BB;
+  margin-left: 75px;
+  margin-right: 75px;
+  border-radius: 10px;
+  }
+.welcome h2{
+padding-left: 10px;
+}
+.welcome h3{
+padding-left: 10px;
+}
+#animalPanel{
+  display:none
+}
+
+.col-md-2 {
+}
+
+.col-md-10 {
+
+}
